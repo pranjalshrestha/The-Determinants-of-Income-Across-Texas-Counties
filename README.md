@@ -11,7 +11,7 @@ This repository contains the materials and code for my econometrics research pap
 - **ShresthaPData.dta**: Dataset used in the analysis.
 - **ShresthaPPaper.pdf**: The full research paper.
 - **Texas_Income_Data.csv**: Raw income data for Texas counties.
-- **ShresthaPDoFile**: STATA do-file for regression analysis.
+- **TX_Income do-file.do**: STATA do-file for regression analysis.
 
 ## Research Summary
 
