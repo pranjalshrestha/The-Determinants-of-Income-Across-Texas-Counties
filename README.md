@@ -35,14 +35,14 @@ To identify and analyze the determinants of income across Texas counties, provid
 - Run `Data_Cleaning_and_Extraction.R` to clean and preprocess the raw data in `Texas_Income_Data.csv`.
 
 ### Regression Analysis:
-- Use the STATA do-file `ShresthaPDoFile` to perform regression analyses on the cleaned data.
+- Use the STATA do-file `TX_Income do-file.do` to perform regression analyses on the cleaned data.
 
 ### Research Paper:
 - Read the full research findings and detailed methodology in `ShresthaPPaper.pdf`.
 
 ## Dependencies
 - **R**: Required to run `Data_Cleaning_and_Extraction.R`.
-- **STATA**: Required to execute `ShresthaPDoFile`.
+- **STATA**: Required to execute `TX_Income do-file.do`.
 
 ## Conclusion
 This research provides valuable insights into the determinants of income across Texas counties, offering data-driven recommendations for addressing economic inequalities. Policymakers can leverage these findings to develop targeted interventions aimed at fostering economic growth and reducing income disparities.
