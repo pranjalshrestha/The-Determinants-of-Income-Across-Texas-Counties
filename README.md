@@ -21,7 +21,7 @@ To identify and analyze the determinants of income across Texas counties, provid
 ### Methodology
 - **Literature Review**: Conducted an extensive review of existing studies on regional income determinants.
 - **Data Collection**: Gathered data from over 250 Texas counties, focusing on various socioeconomic factors.
-- **Data Cleaning**: Cleaned and transformed 60% of the data using RStudio.
+- **Data Cleaning**: Cleaned and transformed the original data using RStudio.
 - **Statistical Analysis**: Employed advanced statistical methods, including logarithmic, multivariate, and polynomial regression, using STATA.
 
 ### Key Findings
