@@ -1,6 +1,6 @@
 # The-Determinants-of-Income-Across-Texas-Counties
 
-![Income_Variations_Rplot](https://github.com/pranjalshrestha/The-Determinants-of-Income-Across-Texas-Counties/assets/135492582/655f44a5-0ae2-4eae-b89f-b66c0ad19847)
+![Income_Variations_Rplot](https://github.com/pranjalshrestha/The-Determinants-of-Income-Across-Texas-Counties/assets/135492582/7d438a1c-b3bd-489c-be43-32347ed22c4d)
 
 ## Overview
 
