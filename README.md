@@ -27,6 +27,7 @@ To identify and analyze the determinants of income across Texas counties, provid
 ### Key Findings
 - **Education Levels**: Higher educational attainment is strongly associated with increased median household income.
 - **Unemployment Rates**: Higher unemployment rates are negatively correlated with income levels.
+- **Demographic Factors**: Several demographic factors significantly influence median household income, reflecting the socio-economic diversity across Texas counties.
 - **Occupational Distributions**: The presence of certain high-income occupations significantly impacts county-level median incomes.
 
 ## How to Use This Repository
