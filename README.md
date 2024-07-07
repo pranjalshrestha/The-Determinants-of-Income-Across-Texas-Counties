@@ -43,7 +43,7 @@ To identify and analyze the determinants of income across Texas counties, provid
 - Read the full research findings and detailed methodology in `ShresthaPPaper.pdf`.
 
 ## Dependencies
-- **R**: Required to run `Data_Cleaning_and_Extraction.R`.
+- **RStudio**: Required to run `Data_Cleaning_and_Extraction.R`.
 - **STATA**: Required to execute `TX_Income do-file.do`.
 
 ## Conclusion
