@@ -1,4 +1,4 @@
-# The-Determinants-of-Income-Across-Texas-Counties
+# The Determinants of Income Across Texas Counties
 ![Median-Income-Rplot](https://github.com/pranjalshrestha/The-Determinants-of-Income-Across-Texas-Counties/assets/135492582/16acc40c-2bef-407e-b97f-98f49a43257f)
 **Figure 1:** R-plot showing Income Variations among Texas Counties
 
