@@ -1,6 +1,6 @@
 # The Determinants of Income Across Texas Counties
 ![Median-Income-Rplot](https://github.com/pranjalshrestha/The-Determinants-of-Income-Across-Texas-Counties/assets/135492582/16acc40c-2bef-407e-b97f-98f49a43257f)
-**Figure 1:** R-plot showing Income Variations among Texas Counties
+**Figure 1:** R-plot depicting Income Variations among Texas Counties
 
 ## Overview
 
@@ -37,7 +37,7 @@ To identify and analyze the determinants of income across Texas counties, provid
 - Run `Data_Cleaning_and_Extraction.R` to clean and preprocess the raw data in `Texas_Income_Data.csv` and `Household Income.csv`.
 
 ### Regression Analysis:
-- Use the STATA do-file `TX_Income do-file.do` to perform regression analyses on the cleaned data.
+- Use the do-file `TX_Income do-file.do` to perform regression analyses in STATA on the cleaned data.
 
 ### Research Paper:
 - Read the full research findings and detailed methodology in `ShresthaPPaper.pdf`.
