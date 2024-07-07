@@ -1,5 +1,7 @@
 # The-Determinants-of-Income-Across-Texas-Counties
 
+![Income_Variations_Rplot](https://github.com/pranjalshrestha/The-Determinants-of-Income-Across-Texas-Counties/assets/135492582/655f44a5-0ae2-4eae-b89f-b66c0ad19847)
+
 ## Overview
 
 This repository contains the materials and code for my econometrics research paper, "The Determinants of Income Across Texas Counties." This study investigates the factors influencing median household income across over 250 Texas counties, aiming to address regional economic disparities through data analysis and advanced statistical methods.
