@@ -1,5 +1,5 @@
 // Load the dataset
-use "/Users/pranjal/Documents/Spring '24/ECO 390/Project/Final Paper/ShresthaPData.dta"
+use "/Users/pranjal/Documents/ECO 390/Project/Final Paper/ShresthaPData.dta"
 
 // Summary statistics
 summarize
@@ -20,7 +20,7 @@ reg lnmedinc bachelors grad unemprate forborn age65over white male mgmtocc sales
 estat vif
 
 // Separate regressions focusing on subsets of predictors
-reg lnmedinc bachelors unemprate forborn age65over white male mgmtocc lnsales construction production
+reg lnmedinc bachelors unemprate forborn age65over white male mgmtocc sales construction production
 reg lnmedinc bachelors unemprate forborn age65over mgmtocc sales construction production
 
 // Re-assess multicollinearity
@@ -58,7 +58,7 @@ gen lnconstruction = ln(construction)
 reg lnmedinc bachelors unemprate forborn age65over mgmtocc lnsales lnconstruction production
 estat ic
 
-reg lnmedinc bachelors unemprate forborn age65over mgmtocc lnsales construction lnconstruction production
+reg lnmedinc bachelors unemprate forborn age65over mgmtocc sales lnconstruction production
 estat ic
 
 gen lnproduction = ln(production)
@@ -82,7 +82,6 @@ twoway scatter e lnmedinc
 // Additional model refinement and diagnostics
 // Check for heteroskedasticity using the White test
 imtest, white
-imtest, white
 
 // Polynomial regression for potential non-linear relationships
 gen unemprate_sq = unemprate^2
@@ -99,11 +98,13 @@ estat ic
 reg lnmedinc bachelors grad unemprate forborn age65over mgmtocc lnsales construction lnproduction
 estat ic
 
-reg lnmedinc bachelors grad unemprate unemprate_sq forborn age65over white male mgmtocc lnsales construction lnproduction
 reg lnmedinc bachelors grad unemprate forborn age65over white male mgmtocc lnsales construction lnproduction
+
+// Include interaction effects
+reg lnmedinc bachelors grad unemprate unemprate_sq forborn age65over white male mgmtocc lnsales construction lnproduction
 estat ic
 
-reg lnmedinc bachelors grad unemprate unemprate_sq forborn age65over mgmtocc lnsales construction lnproduction
+reg lnmedinc bachelors grad unemprate forborn age65over white male mgmtocc lnsales construction lnproduction
 estat ic
 
 // Final model checks and diagnostics
@@ -118,8 +119,8 @@ reg lnmedinc bachelors grad unemprate unemprate_sq forborn age65over white male 
 imtest, white
 
 // Robust regression for outlier robustness
-reg lnmedinc grad unemprate unemprate_sq forborn age65over mgmtocc lnsales construction lnproduction
-reg lnmedinc bachelors unemprate unemprate_sq forborn age65over white male mgmtocc lnsales construction lnproduction
+reg lnmedinc grad unemprate unemprate_sq forborn age65over mgmtocc lnsales construction lnproduction, robust
+reg lnmedinc bachelors unemprate unemprate_sq forborn age65over white male mgmtocc lnsales construction lnproduction, robust
 estat ic
 
 // Final adjustments and variable transformations
