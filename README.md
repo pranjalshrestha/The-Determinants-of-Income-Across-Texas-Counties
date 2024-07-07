@@ -8,6 +8,7 @@ This repository contains the materials and code for my econometrics research pap
 
 ## Contents
 - **Data_Cleaning_and_Extraction.R**: R script for data cleaning and transformation.
+- **Household Income.csv**: Data containing median household income for all counties in the USA.
 - **ShresthaPData.dta**: Dataset used in the analysis.
 - **ShresthaPPaper.pdf**: The full research paper.
 - **Texas_Income_Data.csv**: Raw income data for Texas counties.
@@ -33,7 +34,7 @@ To identify and analyze the determinants of income across Texas counties, provid
 ## How to Use This Repository
 
 ### Data Cleaning and Transformation:
-- Run `Data_Cleaning_and_Extraction.R` to clean and preprocess the raw data in `Texas_Income_Data.csv`.
+- Run `Data_Cleaning_and_Extraction.R` to clean and preprocess the raw data in `Texas_Income_Data.csv` and `Household Income.csv`.
 
 ### Regression Analysis:
 - Use the STATA do-file `TX_Income do-file.do` to perform regression analyses on the cleaned data.
