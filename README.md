@@ -48,3 +48,5 @@ To identify and analyze the determinants of income across Texas counties, provid
 
 ## Conclusion
 This research provides valuable insights into the determinants of income across Texas counties, offering data-driven recommendations for addressing economic inequalities. Policymakers can leverage these findings to develop targeted interventions aimed at fostering economic growth and reducing income disparities.
+
+---
